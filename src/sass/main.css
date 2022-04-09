@@ -1,0 +1,60 @@
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  background-color: #5454f6;
+  -webkit-box-shadow: 0px 0px 5px 0px black;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.search-form__input {
+  height: 35px;
+  width: 400px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+  margin-left: -35px;
+}
+
+.search-form__input:focus {
+  outline: 0;
+}
+
+.search-form__btn {
+  height: 35px;
+  width: 35px;
+  border: 0;
+  border-radius: 0px 5px 5px 0px;
+  background-image: url(../images/search-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  margin-left: -35px;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  width: 400px;
+  height: 300px;
+}
+
+.card__img {
+  width: 400px;
+  height: 200px;
+}
+/*# sourceMappingURL=main.css.map */
