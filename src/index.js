@@ -3,6 +3,7 @@ import './sass/main.scss';
 import Notiflix from 'notiflix';
 import axios from 'axios';
 import simpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const $form = document.querySelector('#search-form');
 const $formInput = $form.firstElementChild;
@@ -26,6 +27,7 @@ $formInput.addEventListener('input', ev => {
 $formBtn.addEventListener('click', async ev => {
   ev.preventDefault();
   pageNumber = 1;
+
   await getImages(pageNumber).then(response => {
     if (response.data.hits.length === 0) {
       const $galleryItems = document.querySelectorAll('div.photo-card');
