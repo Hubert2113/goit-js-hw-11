@@ -2,8 +2,6 @@
 import './sass/main.scss';
 import Notiflix from 'notiflix';
 import axios from 'axios';
-import simpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const $form = document.querySelector('#search-form');
 const $formInput = $form.firstElementChild;
